@@ -97,3 +97,4 @@ class DB {
 }
 
 module.exports = DB;
+// updateEmployeeRole(employeeId, roleId) {
