@@ -37,6 +37,7 @@ const theme = {
         mini: `[SSP]`
     },
 
+
     // UI Components
     ui: {
         separator: '═══════════════════════════════════════════',
