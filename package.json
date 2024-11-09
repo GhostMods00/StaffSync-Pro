@@ -1,19 +1,22 @@
 {
   "name": "staffsync-pro",
   "version": "1.0.0",
-  "description": "employee management system built with Node.js and PostgreSQL",
+  "description": "A professional staff management system for modern businesses",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/GhostMods00/StaffSync-Pro.git"
+    "start": "node index.js",
+    "setup": "node src/db/setup.js"
   },
   "author": "Waleed Zaryab",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/GhostMods00/StaffSync-Pro/issues"
-  },
-  "homepage": "https://github.com/GhostMods00/StaffSync-Pro#readme"
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "console.table": "^0.10.0",
+    "dotenv": "^16.0.3",
+    "figlet": "^1.6.0",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^8.2.4",
+    "ora": "^5.4.1",
+    "pg": "^8.10.0"
+  }
 }
