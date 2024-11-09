@@ -1,33 +1,30 @@
-require('dotenv').config();
+// const { config } = require("nodemon")
 
+const { default: Separator } = require("inquirer/lib/objects/separator")
+
+// require config()
+require("dotenv").config()
 const config = {
     database: {
         user: process.env.DB_USER,
-        host: process.env.DB_HOST,
-        database: process.env.DB_NAME,
         password: process.env.DB_PASSWORD,
+        host: process.env.DB_HOST,
         port: process.env.DB_PORT,
+        database: process.env.DB_NAME,
     },
-    
-    // Table names
-    tables: {
-        department: 'department',
-        role: 'role',
-        employee: 'employee'
+    // Table name
+    table: {
+        department: "department",
+        role: "role",
+        employee: "employee",
     },
-    
-    // Field constraints
+// Field constraints
     constraints: {
-        maxNameLength: 30,
-        minSalary: 0,
+       maxNameLength: 30,
+       minSalary: 0,
     },
-    
-    // Menu configurations
-    menuStyles: {
-        separator: '═══════════════════════════════════',
-        prefix: '→',
-        exitOption: 'Exit Application'
-    }
-};
-
-module.exports = config;
+    // Menu Configurations
+    menuStyle: {
+        Separator: new Separator(),
+    },
+}
