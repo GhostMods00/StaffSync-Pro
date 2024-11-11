@@ -29,7 +29,7 @@ const displayBanner = () => {
     );
     console.log('\n');
     console.log(chalk.blue('═══════════════════════════════════════'));
-    console.log(chalk.blue('     Modern Staff Management Solution   '));
+    console.log(chalk.blue('  Modern Staff Management Solution v1  '));
     console.log(chalk.blue('═══════════════════════════════════════'));
     console.log('\n');
 };
