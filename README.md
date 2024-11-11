@@ -35,6 +35,10 @@ A modern, command-line employee management system built with Node.js and Postgre
   - View employees by manager
   - View employees by department
 
+## Video Demo
+
+https://drive.google.com/file/d/1lpsFRjFF3QWJ3FauO0sCKjiCxsI3a9pd/view
+
 ## 📋 Prerequisites
 
 Before you begin, ensure you have met the following requirements:
@@ -103,7 +107,7 @@ Navigate through the application using the arrow keys and Enter key. The main me
 - ❌ Delete Role
 - ❌ Delete Employee
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
 - **Node.js** - Runtime environment
 - **PostgreSQL** - Database
